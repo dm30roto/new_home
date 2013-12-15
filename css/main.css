@@ -1,10 +1,10 @@
 body 
 {
 	background-color: #23262b;
-  	color: #999999;
+  	color: #fefefe;
 	padding-top: 50px;
 }
-.jumbotron h1 
+.jumbotron h1, .jumbotron p
 {
 	color:#5a5a5a;
 }
@@ -78,6 +78,10 @@ p
 	margin-right: 10px;
 }
 @media (min-width: 768px) {
+	body 
+	{
+		color: #999999;
+	}
 	.featurette-heading 
 	{
 		font-size: 50px;
