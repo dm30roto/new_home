@@ -12,6 +12,12 @@ jQuery(document).ready(function ($) {
 	$('ul.navbar-nav li a').click(function(){
 		var el = $(this).attr('href');
 		var elWrapped = $(el);
+		scrollToDiv(elWrapped,70);
+		return false;
+	});
+	$('footer p a').click(function(){
+		var el = $(this).attr('href');
+		var elWrapped = $(el);
 		scrollToDiv(elWrapped,50);
 		return false;
 	});
