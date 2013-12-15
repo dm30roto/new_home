@@ -1,5 +1,8 @@
 /* Foundation v2.2.1 http://foundation.zurb.com */
 jQuery(document).ready(function ($) {
+	$(".jumbotron h1").lettering().animateLetters({opacity:0},{opacity:1},{randomOrder:false,time:1200,reset:true});
+	$(".jumbotron p").lettering().animateLetters({opacity:0},{opacity:1},{randomOrder:false,time:500,reset:true});
+	
 	$('a.navbar-brand').click(function(){
 		var el = $(this).attr('href');
 		var elWrapped = $(el);
